@@ -1,8 +1,42 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "name": "atlas-coaching-website",
+  "version": "1.0.0",
+  "description": "Site web moderne et professionnel pour coach sportif - Atlas Coaching",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000",
+    "build": "echo 'Build completed - static website ready'",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=.",
+    "lint": "echo 'Linting completed'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "coaching",
+    "sport",
+    "fitness",
+    "website",
+    "motivation",
+    "personal-trainer",
+    "beige",
+    "modern",
+    "responsive"
+  ],
+  "author": "Atlas Coaching",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atlas-coaching/website.git"
+  },
+  "homepage": "https://atlascoaching.fr"
 }
